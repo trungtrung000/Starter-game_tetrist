@@ -157,6 +157,7 @@ void game::reset()
     Grid.initialize();
     blocks =  getallblocks();
     bnext = getrandomBlock();
+    score =0;
 }
 
 void game::scoreupdate(int lineclear, int movedownpoint)
